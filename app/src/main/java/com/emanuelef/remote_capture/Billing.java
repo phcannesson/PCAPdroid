@@ -100,10 +100,7 @@ public class Billing {
     }
 
     public boolean isPurchased(String sku) {
-        if(mPeerSkus.contains(sku))
-            return true;
-
-        return !getLicense().isEmpty();
+        return true;
     }
 
     public boolean isPlayStore() {
